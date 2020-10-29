@@ -1,9 +1,9 @@
 <template>
-  <div id="app">
+<div class="appz">
     <web-header />
     <web-content />
     <web-footer />
-  </div>
+</div>
 </template>
 
 <script>
@@ -12,7 +12,7 @@ import footer from './components/footer.vue'
 import content from './components/content.vue'
 
 export default {
-  name: 'App',
+  name: 'info',
   components: {
     'web-header': header,
     'web-footer': footer,
@@ -28,6 +28,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  /*margin-top: 60px;*/
+  margin-top: 60px;
 }
 </style>
